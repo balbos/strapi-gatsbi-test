@@ -5,7 +5,7 @@ import ArticlesComponent from "../components/articles"
 import Layout from "../components/layout"
 
 export const query = graphql`
-  query Category($id: Int!) {
+  query Category($id: String!) {
     articles: allStrapiArticle(filter: { category: { id: { eq: $id } } }) {
       edges {
         node {
@@ -13,9 +13,6 @@ export const query = graphql`
           title
           category {
             name
-          }
-          image {
-            publicURL
           }
         }
       }

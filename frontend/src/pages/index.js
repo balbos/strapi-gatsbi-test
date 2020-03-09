@@ -19,9 +19,6 @@ const IndexPage = () => (
                 category {
                   name
                 }
-                image {
-                  publicURL
-                }
               }
             }
           }
@@ -40,3 +37,4 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+

@@ -6,11 +6,7 @@ const Card = ({ article }) => {
     <Link to={`/article/${article.node.strapiId}`} className="uk-link-reset">
       <div className="uk-card uk-card-muted">
         <div className="uk-card-media-top">
-          <img
-            src={article.node.image.publicURL}
-            alt={article.node.image.publicURL}
-            height="100"
-          />
+
         </div>
         <div className="uk-card-body">
           <p id="category" className="uk-text-uppercase">
