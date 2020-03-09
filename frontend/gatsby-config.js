@@ -44,6 +44,6 @@ module.exports = {
         display: "minimal-ui",
       },
     },
-    "gatsby-plugin-offline",
+
   ],
 }
