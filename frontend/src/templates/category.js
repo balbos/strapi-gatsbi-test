@@ -14,9 +14,6 @@ export const query = graphql`
           category {
             name
           }
-          image {
-            publicURL
-          }
         }
       }
     }
