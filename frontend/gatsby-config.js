@@ -28,7 +28,7 @@ module.exports = {
           "article",
           "category",
         ],
-        queryLimit: 1000,
+        queryLimit: 20000,
       },
     },
     "gatsby-transformer-sharp",
